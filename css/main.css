@@ -1,0 +1,130 @@
+.blue-bg {
+  background-image: -moz-linear-gradient(to top right, #89ccdc, #167e94);
+  background-image: -webkit-linear-gradient(to top right, #89ccdc, #167e94);
+  background-image: -ms-linear-gradient(to top right, #89ccdc, #167e94);
+  background-image: -o-linear-gradient(to top right, #89ccdc, #167e94);
+}
+
+.orange-gradient-down-bg {
+  background-image: -moz-linear-gradient(to bottom, #fbb03b, #f7931e);
+  background-image: -webkit-linear-gradient(to bottom, #fbb03b, #f7931e);
+  background-image: -ms-linear-gradient(to bottom, #fbb03b, #f7931e);
+  background-image: -o-linear-gradient(to bottom, #fbb03b, #f7931e);
+}
+
+.text-orange {
+  color: #FFCF36;
+}
+
+.pink-bg {
+  background-color: pink;
+}
+
+.green-bg {
+  background-color: green;
+}
+
+.orange-bg {
+  background-color: orange;
+}
+
+.red-bg {
+  background-color: red;
+}
+
+hr.style-hr {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left,
+    #ffffff83,
+    #ffffff,
+    #ffffff83);
+  background-image: -moz-linear-gradient(left, #ffffff83, #ffffff, #ffffff83);
+  background-image: -ms-linear-gradient(left, #ffffff83, #ffffff, #ffffff83);
+  background-image: -o-linear-gradient(left, #ffffff83, #ffffff, #ffffff83);
+}
+
+.title {
+  font-size: 6.5rem;
+}
+
+.title-secondary {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+}
+
+.icon {
+  height: 7rem;
+}
+
+.icon-flip {
+  -moz-transform: scale(-1, -1);
+  -o-transform: scale(-1, -1);
+  -webkit-transform: scale(-1, -1);
+  transform: scale(-1, -1);
+
+}
+
+.alesand-font {
+  font-family: alesand;
+}
+
+.myriad {
+  font-family: myriad;
+}
+
+.silent {
+  font-family: silent;
+}
+
+.sofia {
+  font-family: sofia;
+}
+
+.galano-black {
+  font-family: galano-black;
+}
+
+.galano-medium {
+  font-family: galano-medium;
+}
+
+.galano-semibold {
+  font-family: galano-semibold;
+}
+
+/* FONTES */
+@font-face {
+  font-family: alesand;
+  src: url(../fonts/ALESAND\ EXTRA\ ROUND.OTF);
+}
+
+@font-face {
+  font-family: myriad;
+  src: url(../fonts/MYRIADPRO-REGULAR.OTF);
+}
+
+@font-face {
+  font-family: silent;
+  src: url(../fonts/SILENT\ ECHO\ DEMO.OTF);
+}
+
+@font-face {
+  font-family: sofia;
+  src: url(../fonts/SOFIA\ PRO\ REGULAR.TTF);
+}
+
+@font-face {
+  font-family: galano-black;
+  src: url(../fonts/GALANO\ GROTESQUE\ BLACK.OTF);
+}
+
+@font-face {
+  font-family: galano-medium;
+  src: url(../fonts/GALANO\ GROTESQUE\ MEDIUM.OTF);
+}
+
+@font-face {
+  font-family: galano-semibold;
+  src: url(../fonts/GALANO\ GROTESQUE\ SEMI\ BOLD.OTF);
+}
