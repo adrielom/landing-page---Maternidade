@@ -12,6 +12,12 @@
   background-image: -o-linear-gradient(to bottom, #fbb03b, #f7931e);
 }
 
+.text-back {
+  -webkit-transform: translateX(-10%);
+  transform: translateX(-10%);
+  -moz-transform: translateX(-10%);
+}
+
 .text-orange {
   color: #FFCF36;
 }
@@ -45,16 +51,17 @@ hr.style-hr {
 }
 
 .title {
-  font-size: 6.5rem;
+  font-size: 5rem;
 }
 
 .title-secondary {
-  font-size: 1.38rem;
-  line-height: 1.8rem;
+  font-size: 1.4rem;
+  line-height: 1.5rem;
+  font-weight: bolder;
 }
 
 .icon {
-  height: 7rem;
+  height: 6rem;
 }
 
 .icon-flip {
