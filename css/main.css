@@ -26,36 +26,14 @@
   background-image: -o-linear-gradient(to right, #fbb03b 80%, #f7931e 90%);
 }
 
-.blue-outline {
-  background-color: #fff;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  border-radius: 30px;
-  border: 5px solid #147990;
-}
-
-.white-panel {
-  background-color: #fff;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  border-radius: 30px;
-  -webkit-box-shadow: 1px 10px 20px 0px rgba(63, 63, 63, 0.5);
-  -moz-box-shadow: 1px 10px 20px 0px rgba(63, 63, 63, 0.5);
-  box-shadow: 1px 10px 20px 0px rgba(63, 63, 63, 0.5);
-}
-
-.text-back {
-  -webkit-transform: translateX(-10%);
-  transform: translateX(-10%);
-  -moz-transform: translateX(-10%);
-}
-
-.text-grey {
-  color: #4D4D4D;
-}
-
-.text-orange {
-  color: rgb(255, 183, 50);
+.orange-gradient-top-right-panel {
+  background-image: -moz-linear-gradient(to right, #ffb032 80%, #f7931e 90%);
+  background-image: -webkit-linear-gradient(to right, #fbb03b 80%, #f7931e 90%);
+  background-image: -ms-linear-gradient(to right, #fbb03b 80%, #f7931e 90%);
+  background-image: -o-linear-gradient(to right, #fbb03b 80%, #f7931e 90%);
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 60px;
 }
 
 .pink-bg {
@@ -74,20 +52,50 @@
   background-color: red;
 }
 
-hr.style-hr {
-  border: 0;
-  height: 1px;
-  background-image: -webkit-linear-gradient(left,
-    #ffffff83,
-    #ffffff,
-    #ffffff83);
-  background-image: -moz-linear-gradient(left, #ffffff83, #ffffff, #ffffff83);
-  background-image: -ms-linear-gradient(left, #ffffff83, #ffffff, #ffffff83);
-  background-image: -o-linear-gradient(left, #ffffff83, #ffffff, #ffffff83);
+
+/* ----------------------------- BACKGROUNDS AND GRADIENTS ----------------------------- */
+
+.blue-outline {
+  background-color: #fff;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  border: 5px solid #147990;
+}
+
+.white-panel {
+  background-color: #fff;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  -webkit-box-shadow: 1px 10px 20px 0px rgba(63, 63, 63, 0.5);
+  -moz-box-shadow: 1px 10px 20px 0px rgba(63, 63, 63, 0.5);
+  box-shadow: 1px 10px 20px 0px rgba(63, 63, 63, 0.5);
+}
+
+/* ----------------------------- PANELS ----------------------------- */
+
+.text-back {
+  -webkit-transform: translateX(-10%);
+  transform: translateX(-10%);
+  -moz-transform: translateX(-10%);
+}
+
+.text-grey {
+  color: #4D4D4D;
+}
+
+.text-orange {
+  color: rgb(255, 183, 50);
 }
 
 .title-section3 {
   font-size: 2.3rem;
+  font-weight: bolder;
+}
+
+.title-section4 {
+  font-size: 1.75rem;
   font-weight: bolder;
 }
 
@@ -105,6 +113,18 @@ hr.style-hr {
   font-weight: bolder;
 }
 
+/* ----------------------------- TEXT AND TITLES ----------------------------- */
+
+.bee-nurse {
+  width: 35%;
+  z-index: 1;
+}
+
+.bee-mobile {
+  z-index: 1;
+  width: 35%;
+}
+
 .icon {
   height: 6rem;
 }
@@ -116,6 +136,22 @@ hr.style-hr {
   transform: scale(-1, -1);
 
 }
+
+/* ----------------------------- IMAGES AND ICONS ----------------------------- */
+
+hr.style-hr {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left,
+    #ffffff83,
+    #ffffff,
+    #ffffff83);
+  background-image: -moz-linear-gradient(left, #ffffff83, #ffffff, #ffffff83);
+  background-image: -ms-linear-gradient(left, #ffffff83, #ffffff, #ffffff83);
+  background-image: -o-linear-gradient(left, #ffffff83, #ffffff, #ffffff83);
+}
+
+/* ----------------------------- MISCELANEOUS ----------------------------- */
 
 .alesand-font {
   font-family: alesand;
@@ -145,7 +181,8 @@ hr.style-hr {
   font-family: galano-semibold;
 }
 
-/* FONTES */
+/* FONTS */
+
 @font-face {
   font-family: alesand;
   src: url(../fonts/ALESAND\ EXTRA\ ROUND.OTF);
