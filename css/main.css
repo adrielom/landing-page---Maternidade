@@ -113,6 +113,8 @@
   font-weight: bolder;
 }
 
+
+
 /* ----------------------------- TEXT AND TITLES ----------------------------- */
 
 .bee-nurse {
@@ -123,6 +125,7 @@
 .bee-mobile {
   z-index: 1;
   width: 35%;
+  right: 0;
 }
 
 .icon {
@@ -149,6 +152,10 @@ hr.style-hr {
   background-image: -moz-linear-gradient(left, #ffffff83, #ffffff, #ffffff83);
   background-image: -ms-linear-gradient(left, #ffffff83, #ffffff, #ffffff83);
   background-image: -o-linear-gradient(left, #ffffff83, #ffffff, #ffffff83);
+}
+
+.no-underline:hover {
+  text-decoration: none;
 }
 
 /* ----------------------------- MISCELANEOUS ----------------------------- */
