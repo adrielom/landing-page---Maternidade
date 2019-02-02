@@ -24,21 +24,24 @@
 
   <body>
     <!-- SECTION 1 -->
-    <div class="container-fluid blue-gradient-top-right-bg py-3">
-      <header class="row">
-        <div class="col-3 d-flex align-items-center flex-row">
+    <div class="container-fluid blue-gradient-top-right-bg pt-3">
+      <header class="row d-xs-flex flex-xs-column justify-content-center">
+        <div
+          id="logos-div"
+          class="col-3 col-xs-12 d-flex align-items-center flex-row"
+        >
           <img
-            class="img-fluid pl-3 h-75"
+            class="img-fluid h-lg-75"
             src="./img/hapvida-logo.svg"
             alt="hapvida logo"
           />
           <img
-            class="img-fluid pl-2 pr-3 h-75"
+            class="img-fluid pl-lg-2 pr-lg-3 h-lg-75"
             src="./img/sl91-logo.svg"
             alt="sl91 logo"
           />
         </div>
-        <nav class="col-9 px-3 pt-3">
+        <nav id="navbar" class="col-9 col-xs-12 px-3 px-sm-0 pt-3">
           <div class="d-flex flex-row justify-content-around">
             <a
               class="galano-medium title-secondary text-white no-underline"
@@ -70,14 +73,74 @@
         </nav>
       </header>
       <div class="row position-relative h-100">
-        <img src="./img/pregnant.png" alt="mulher grávida" class="img-fluid align-end" />
+        <img
+          src="./img/pregnant.png"
+          alt="mulher grávida"
+          class="img-fluid position-absolute align-end pregnant-woman-img"
+        />
+        <div class="col-5 d-none d-lg-block"></div>
+        <div class="col-lg-7 col-12 pb-5">
+          <div class="row d-flex justify-content-center py-4">
+            <h1 class="silent text-4rem text-white text-center px-0 mb-0">
+              A maior
+              <span class="text-orange text-5-halfrem">rede de saúde</span>
+            </h1>
+            <h1 class="silent text-4rem text-white text-center px-4 mb-0">
+              do norte e nordeste com o
+            </h1>
+            <h1 class="silent text-4rem text-white text-center px-0">
+              <span class="text-orange text-5-halfrem">menor preço</span> do
+              mercado.
+            </h1>
+          </div>
+          <div
+            class="row position-relative d-xs-flex justify-content-xs-center pt-3 w-75 mx-lg-auto mx-xs-0 justify-content-around"
+          >
+            <img
+              src="./img/quotes-img.svg"
+              alt="aspas"
+              class="img-fluid position-absolute quotes quotes-left"
+            />
+            <form
+              class="form-group d-flex flex-column justify-content-center white-panel-form px-4 h-100 py-2"
+            >
+              <label class="galano-semibold text-orange" for="name">Nome</label>
+              <input id="name" class="form-control mx-2 mb-2" type="text" />
+              <label class="galano-semibold text-orange" for="email"
+                >Email</label
+              >
+              <input id="email" class="form-control mx-2 mb-2" type="email" />
+              <label class="galano-semibold text-orange" for="phone"
+                >Telefone</label
+              >
+              <input id="phone" class="form-control mx-2 mb-2" type="tel" />
+              <div class=" d-flex pt-5 pb-3">
+                <button
+                  type="button"
+                  class="mx-auto btn align-self-center galano-black orange-gradient-top-right-form px-2 "
+                >
+                  <h1 class="text-2rem  text-white text-center ">
+                    cadastre-se
+                  </h1>
+                </button>
+              </div>
+            </form>
+            <img
+              src="./img/quotes-img.svg"
+              alt="aspas"
+              class="img-fluid position-absolute align-self-end quotes-right icon-flip quotes"
+            />
+          </div>
+        </div>
       </div>
     </div>
 
     <!-- SECTION 2 -->
     <div class="container-fluid">
       <div class="row py-5">
-        <div class="col-12">
+        <div
+          class="col-12 d-xs-flex d-sm-flex justify-content-xs-center justify-content-sm-center justify-content-md-start"
+        >
           <!-- Titles template -->
           <div class="title-container row d-flex align-items-center pl-5">
             <img
@@ -94,10 +157,14 @@
           </div>
         </div>
       </div>
-      <div class="row d-flex flex-row justify-content-between pb-5">
+      <div
+        class="row d-flex flex-row justify-content-between justify-contet-xs-center pb-5"
+      >
         <!-- Block title template -->
-        <div class="col-12 col-lg-4 pb-5">
-          <div class="icon-block-container d-flex flex-row align-items-end p-0">
+        <div class="col-12 col-lg-4 col-sm-6 pb-5">
+          <div
+            class="icon-block-container d-flex flex-row align-items-end justify-content-xs-center p-0"
+          >
             <img
               src="./img/health-icon.svg"
               alt="saúde icone"
@@ -112,7 +179,7 @@
           </div>
         </div>
         <!-- Block title template -->
-        <div class="col-12 col-lg-4 pb-5">
+        <div class="col-12 col-lg-4 col-sm-6 pb-5">
           <div
             class="icon-block-container d-flex flex-row align-items-center p-0"
           >
@@ -129,7 +196,9 @@
           </div>
         </div>
         <!-- Block title template -->
-        <div class="col-12 col-lg-4 pb-5">
+        <div
+          class="col-12 col-lg-4 col-sm-6 pb-lg-5 pb-sm-3 pt-sm-3 pb-xs-0 pb-sm-0"
+        >
           <div
             class="icon-block-container d-flex flex-row align-items-center p-0"
           >
@@ -146,7 +215,7 @@
           </div>
         </div>
         <!-- Block title template -->
-        <div class="col-12 col-lg-4 pt-5">
+        <div class="col-12 col-lg-4 pt-sm-3 pb-sm-3 col-sm-6 pt-5">
           <div
             class="icon-block-container d-flex flex-row align-items-center p-0"
           >
@@ -163,7 +232,7 @@
           </div>
         </div>
         <!-- Block title template -->
-        <div class="col-12 col-lg-4 pt-5">
+        <div class="col-12 col-lg-4 col-sm-6 pt-5">
           <div
             class="icon-block-container d-flex flex-row align-items-center p-0"
           >
@@ -180,7 +249,7 @@
           </div>
         </div>
         <!-- Block title template -->
-        <div class="col-12 col-lg-4 pt-5">
+        <div class="col-12 col-lg-4 col-sm-6 pt-5">
           <div
             class="icon-block-container d-flex flex-row align-items-center p-0"
           >
@@ -202,14 +271,18 @@
     <!-- SECTION 3 -->
     <div class="container-fluid orange-gradient-top-right-bg h-100">
       <div class="row py-3">
-        <div class="col-12">
+        <div
+          class="col-12 d-flex justify-content-md-start justify-content-xs-center justify-content-sm-center"
+        >
           <!-- Titles template -->
           <div class="title-container row d-flex align-items-center pl-5">
             <img
               src="./img/bracket-white.svg"
               class="img-fluid icon bracket-yellow justify-self-end"
             />
-            <h1 class="title silent text-white pb-1 text-uppercase">dúvidas</h1>
+            <h1 class="title silent text-white pb-1 text-uppercase">
+              carência
+            </h1>
             <img
               src="./img/bracket-white.svg"
               class="img-fluid icon icon-flip justify-self-start"
@@ -277,7 +350,7 @@
       <div class="row mx-auto">
         <div class="col-12 d-flex justify-content-center py-5">
           <div class="white-panel my-auto">
-            <button class="blue-outline my-2 mx-2">
+            <button id="buttonRedirect" class="blue-outline my-2 mx-2">
               <h1
                 class="silent title text-orange mt-1 px-5 text-center text-uppercase"
               >
