@@ -54,7 +54,7 @@ html {
 }
 
 .orange-bg {
-  background-color: orange;
+  background-color: #FFCF13;
 }
 
 .red-bg {
@@ -99,7 +99,7 @@ html {
 }
 
 .text-orange {
-  color: rgb(255, 183, 50);
+  color: #FFCF13;
 }
 
 .title-section3 {
@@ -171,7 +171,7 @@ html {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
-  border: 2px solid #fbb03b;
+  border: 2px solid #FFCF13;
   height: 60px;
   width: 92%;
   margin: auto;
@@ -207,6 +207,8 @@ html {
 .bee-nurse {
   width: 35%;
   z-index: 1;
+  left: 0;
+  bottom: 0;
 }
 
 .bee-mobile {
@@ -339,10 +341,73 @@ hr.style-hr {
 
 /* ------------------------------------ MEDIA QUERIES ------------------------------- */
 
+/* Extra large devices (large desktops, 1200px and up) */
+@media screen and (max-width: 1200px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (max-width: 992px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 577px) and (max-width: 900px) {
+  .title-secondary {
+    font-size: 1rem;
+  }
+
+  #navbar {
+    padding: 0 !important;
+  }
+
+  .bee-mobile {
+    z-index: 1;
+    width: 55%;
+    left: 6%;
+  }
+
+  .push-down-section3 {
+    height: 250px !important;
+  }
+
+  .push-down-section4 {
+    height: 145px !important;
+  }
+
+  .bee-nurse {
+    left: 30% !important;
+  }
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (max-width: 576px) {
   .title-secondary {
-    font-size: .5rem;
+    font-size: .8rem;
+    margin-bottom: 0 !important;
+  }
+
+  .text-section3 {
+    font-size: .8rem;
+  }
+
+  .push-down-section3 {
+    height: 80px !important;
+  }
+
+  .bee-mobile {
+    z-index: 1;
+    width: 55%;
+    left: 6%;
+  }
+
+  .bee-nurse {
+    left: 30% !important;
+  }
+
+  .push-down-section4 {
+    height: 25px;
+  }
+
+  .title-section4,
+  .title-section3 {
+    font-size: 1rem;
   }
 
   .pregnant-woman-img {
@@ -351,6 +416,9 @@ hr.style-hr {
     height: 50%;
   }
 
+  .social-icons {
+    width: 20%;
+  }
 
   .white-panel-form {
     -webkit-border-radius: 0px;
@@ -364,6 +432,9 @@ hr.style-hr {
     font-size: 2rem;
   }
 
+  .icon {
+    height: 4rem;
+  }
 
   .blue-outline {
     background-color: #fff;
@@ -379,28 +450,14 @@ hr.style-hr {
     border-radius: 20px;
   }
 
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media screen and (min-width: 577px) and (max-width: 768px) {
-  .title-secondary {
-    font-size: 1rem;
+  .orange-gradient-top-right-panel {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
   }
 
-  #navbar {
-    padding: 0 !important;
+  #buttonRedirect h1 {
+    font-size: 1.2rem;
   }
 
 }
-
-@media screen and (min-width: 769px) and (max-width: 900px) {
-  .title-secondary {
-    font-size: 1rem;
-  }
-}
-
-/* Large devices (desktops, 992px and up) */
-@media screen and (max-width: 992px) {}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media screen and (max-width: 1200px) {}
