@@ -159,6 +159,9 @@ html {
   font-size: 6rem;
 }
 
+.title-nav {
+  font-size: 1.3rem;
+}
 
 /* ----------------------------- TEXT AND TITLES ----------------------------- */
 
@@ -226,6 +229,10 @@ html {
   -o-transform: scale(-1, -1);
   -webkit-transform: scale(-1, -1);
   transform: scale(-1, -1);
+}
+
+#form-woman {
+  width: 75% !important;
 }
 
 .quotes {
@@ -357,6 +364,7 @@ hr.style-hr {
     padding: 0 !important;
   }
 
+
   .bee-mobile {
     z-index: 1;
     width: 55%;
@@ -374,6 +382,10 @@ hr.style-hr {
   .bee-nurse {
     left: 30% !important;
   }
+
+  .social-icons {
+    width: 20% !important;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -385,6 +397,12 @@ hr.style-hr {
 
   .text-section3 {
     font-size: .8rem;
+  }
+
+  .title-nav {
+    font-size: .8rem !important;
+    padding: 0 .2rem;
+    text-align: center !important;
   }
 
   .push-down-section3 {
@@ -417,7 +435,7 @@ hr.style-hr {
   }
 
   .social-icons {
-    width: 20%;
+    width: 20% !important;
   }
 
   .white-panel-form {
@@ -458,6 +476,11 @@ hr.style-hr {
 
   #buttonRedirect h1 {
     font-size: 1.2rem;
+  }
+
+
+  #form-woman {
+    width: 100% !important;
   }
 
 }
