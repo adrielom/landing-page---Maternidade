@@ -18,12 +18,16 @@ $(document).ready(function() {
 function parallax() {
   $(window).scroll(function() {
     let scrollVar = $(this).scrollTop();
-    console.log("hey");
-    $(".ball-blur-icon").css(
-      "transform",
-      "translate(0px," + scrollVar / 80 + "%)"
-    );
-    $(".ball-icon").css("transform", "translate(0px,-" + scrollVar / 45 + "%)");
+    if (window.innerWidth > 1000) {
+      $(".ball-blur-icon").css(
+        "transform",
+        "translate(0px," + scrollVar / 80 + "%)"
+      );
+      $(".ball-icon").css(
+        "transform",
+        "translate(0px,-" + scrollVar / 45 + "%)"
+      );
+    }
   });
 }
 
