@@ -32,27 +32,34 @@
           <a class="galano-medium title-nav text-white no-underline" href="#duvidas">Dúvidas</a>
           <a class="galano-medium title-nav text-white no-underline" href="#contato">Contato</a>
         </div>
-        <hr class="style-hr w-75" />
+        <hr class="style-hr" />
       </nav>
     </header>
     <div class="row position-relative h-100">
       <img src="./img/pregnant.png" alt="mulher grávida" class="img-fluid position-absolute align-end pregnant-woman-img" />
-      <div class=" d-none col-5 col-md-5 d-lg-block"></div>
-      <div class="col-lg-7 col-12 pb-5">
-        <div class="row d-flex justify-content-center py-4">
-          <h1 class="silent text-4rem text-white text-center px-0 mb-0">
+      <div id="ball1" class="position-absolute ball-icon img-fluid"></div>
+      <div id="ball2" class="position-absolute ball-icon img-fluid"></div>
+      <div id="ball3" class="position-absolute ball-icon img-fluid"></div>
+
+      <div id="ballBlur1" class="position-absolute ball-icon img-fluid"></div>
+      <div id="ballBlur2" class="position-absolute ball-icon img-fluid"></div>
+
+      <div class="d-none col-5 col-md-5 d-lg-block"></div>
+      <div class="col-12 col-lg-7 px-lg-0 pb-5">
+        <div id="sectionOneTitle" class="row d-flex position-relative justify-content-center px-1 py-4">
+          <h1 class="silent text-4rem text-white text-center px-lg-0 px-4 mb-0">
             A maior
             <span class="text-orange text-5-halfrem">rede de saúde</span>
           </h1>
           <h1 class="silent text-4rem text-white text-center px-4 mb-0">
             do norte e nordeste com o
           </h1>
-          <h1 class="silent text-4rem text-white text-center px-0">
+          <h1 class="silent text-4rem text-white text-center px-lg-0 px-4">
             <span class="text-orange text-5-halfrem">menor preço</span> do
             mercado.
           </h1>
         </div>
-        <div id="form-woman" class="row position-relative d-xs-flex justify-content-xs-center pt-3 w-100 mx-auto mx-xs-0 justify-content-lg-around">
+        <div id="form-woman" class="row position-relative d-xs-flex justify-content-xs-center justify-content-sm-center justify-content-md-center pt-3 w-100 mx-auto mx-xs-0 justify-content-lg-around">
           <img src="./img/quotes-img.svg" alt="aspas" class="img-fluid d-xs-none position-absolute quotes quotes-left" />
 
           <form accept-charset="UTF-8" action="https://sx305.infusionsoft.com/app/form/process/21585772141bf2c9f89458b1f426c05c"
@@ -89,7 +96,11 @@
 
   <!-- SECTION 2 -->
   <div id="vantagens" class="container-fluid">
-    <div class="row py-5">
+    <div class="row position-relative white-bg py-5">
+
+      <div id="ball4" class="position-absolute ball-icon img-fluid"></div>
+      <div id="ball5" class="position-absolute ball-icon img-fluid"></div>
+
       <div class="col-12 d-flex justify-content-md-start justify-content-xs-center justify-content-sm-center">
         <!-- Titles template -->
         <div class="mx-auto mx-lg-0 row d-flex align-items-center pl-lg-5">
@@ -173,7 +184,9 @@
   </div>
 
   <!-- SECTION 3 -->
-  <div id="carencia" class="container-fluid orange-gradient-top-right-bg h-100">
+  <div id="carencia" class="container-fluid position-relative orange-gradient-top-right-bg h-100">
+    <div id="ballBlur3" class="position-absolute ball-icon img-fluid"></div>
+
     <div class="row py-3">
       <div class="col-12 d-flex justify-content-md-start justify-content-xs-center justify-content-sm-center">
         <!-- Titles template -->
@@ -300,28 +313,27 @@
 
   <!-- FOOTER SECTION -->
   <footer class="container-fluid h-100 orange-gradient-down-bg">
-    <div class="row mx-lg-5 d-flex flex-row flex-xs-row">
-      <div class="col-7 col-md-4 col-xs-3 px-0">
-        <div class="d-flex justify-self-start flex-row py-4 my-auto w-100 px-2">
+    <div class="row mx-lg-5 d-flex flex-row flex-xs-row justify-content-center justify-content-lg-start">
+      <div class="col-7 col-md-4 col-xs-6 px-0 py-0">
+        <div class="d-flex justify-self-lg-start flex-row py-lg-4 pt-2 my-auto w-100 h-lg-100 px-lg-2">
           <img class="img-fluid w-75" src="./img/hapvida-logo.svg" alt="havida logo" />
           <img class="img-fluid w-50" src="./img/sl91-logo.svg" alt="havida logo" />
         </div>
       </div>
       <div class="col-md-4"></div>
-
-      <div class="col-4 col-xs-5 col-md-4 col-sm-4 align-self-center justify-self-end">
-        <div class="row mx-auto mx-lg-0 d-flex flex-sm-row justify-content-lg-end w-lg-75 px-md-2">
-          <div class="col-lg-3">
+      <div class="col-lg-4 col-12 col-md-4 col-sm-4 align-self-lg-center justify-self-lg-end">
+        <div class="row mx-auto mx-lg-0 d-flex flex-row py-3 justify-content-lg-end w-lg-75 justify-content-center">
+          <div class="col-3 text-center px-0">
             <a href="https://business.facebook.com/PlanosHapvida/?business_id=1257534071041549">
               <img src="./img/facebook-icon.svg" alt="facebook link" class="img-fluid social-icons" />
             </a>
           </div>
-          <div id="whatsapp-link" class="col-lg-3">
+          <div id="whatsapp-link" class="col-3 text-center px-0">
             <a>
               <img src="./img/whatsapp-icon.svg" alt="whatsapp link" class="social-icons img-fluid" />
             </a>
           </div>
-          <div class="col-lg-3">
+          <div class="col-3 text-center px-0">
             <a href="https://business.facebook.com/PlanosHapvida/?business_id=1257534071041549">
               <img src="./img/instagram-icon.svg" alt="instagram linl" class="img-fluid social-icons" />
             </a>

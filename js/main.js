@@ -22,28 +22,10 @@ function whatsappButton() {
   let classes = "social-icons img-fluid ";
 
   if (window.innerWidth < 1000) {
-    $("#whatsapp-link").html(
-      "<a href=" +
-        linkHref +
-        "><img src=" +
-        linkImg +
-        " alt=" +
-        altText +
-        " class=" +
-        classes +
-        " /> </a>"
-    );
+    $("#whatsapp-link").html("<a href=" + linkHref + "><img src=" + linkImg + " alt=" + altText + " class=" + classes " /> </a>");
   } else {
     $("#whatsapp-link")
-      .html(
-        "<a><img src=" +
-          linkImg +
-          " alt=" +
-          altText +
-          " class=" +
-          classes +
-          " /> </a>"
-      )
+      .html("<a><img src=" + linkImg + " alt=" + altText + " class=" + classes + " /> </a>")
       .css("cursor", "pointer");
   }
 }
