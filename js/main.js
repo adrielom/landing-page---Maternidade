@@ -1,6 +1,9 @@
 $(document).ready(function() {
   if (window.innerWidth <= 576) {
     $("#logos-div").css({ padding: 0 });
+  } else {
+    $("#logos-div .img-fluid").css({ maxWidth: "45%"});
+
   }
 
   console.log(window.innerWidth);

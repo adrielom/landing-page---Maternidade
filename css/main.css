@@ -9,36 +9,35 @@ html {
 
 .blue-bg {
   background-image: -moz-linear-gradient(to top right, #89ccdc, #167e94);
-  background-image: -webkit-linear-gradient(to top right, #89ccdc, #167e94);
+  background: -webkit-linear-gradient(45deg, #89ccdc 0%,#167e94 79%);
   background-image: -ms-linear-gradient(to top right, #89ccdc, #167e94);
   background-image: -o-linear-gradient(to top right, #89ccdc, #167e94);
 }
 
 .blue-gradient-top-right-bg {
   background-image: -moz-linear-gradient(to top right, #4bb7ca, #147990);
-  background-image: -webkit-linear-gradient(to top right, #4bb7ca, #147990);
-  background-image: -ms-linear-gradient(to top right, #4bb7ca, #147990);
+  background: -webkit-linear-gradient(45deg, #89ccdc 0%,#167e94 79%);  background-image: -ms-linear-gradient(to top right, #4bb7ca, #147990);
   background-image: -o-linear-gradient(to top right, #4bb7ca, #147990);
   z-index: -1;
 }
 
 .orange-gradient-down-bg {
   background-image: -moz-linear-gradient(to bottom, #fbb03b, #f7931e);
-  background-image: -webkit-linear-gradient(to bottom, #fbb03b, #f7931e);
+  background: -webkit-linear-gradient(top, #fbb03b 0%,#f7931e 79%);
   background-image: -ms-linear-gradient(to bottom, #fbb03b, #f7931e);
   background-image: -o-linear-gradient(to bottom, #fbb03b, #f7931e);
 }
 
 .orange-gradient-top-right-bg {
   background-image: -moz-linear-gradient(to right, #ffcf13 2%, #FF9600 90%);
-  background-image: -webkit-linear-gradient(to right, #ffcf13 2%, #FF9600 90%);
+  background: -webkit-linear-gradient(45deg, #ffcf13 0%,#f7931e 79%);
   background-image: -ms-linear-gradient(to right, #ffcf13 2%, #FF9600 90%);
   background-image: -o-linear-gradient(to right, #ffcf13 2%, #FF9600 90%);
 }
 
 .orange-gradient-top-right-panel {
   background-image: -moz-linear-gradient(to right, #ffb032 80%, #f7931e 90%);
-  background-image: -webkit-linear-gradient(to right, #fbb03b 80%, #f7931e 90%);
+  background: -webkit-linear-gradient(45deg, #ffcf13 0%,#f7931e 79%);
   background-image: -ms-linear-gradient(to right, #fbb03b 80%, #f7931e 90%);
   background-image: -o-linear-gradient(to right, #fbb03b 80%, #f7931e 90%);
   -webkit-border-radius: 60px;
@@ -206,7 +205,7 @@ html {
 
 .orange-gradient-top-right-form {
   background-image: -moz-linear-gradient(to right, #ffb032 80%, #f7931e 90%);
-  background-image: -webkit-linear-gradient(to right, #fbb03b 80%, #f7931e 90%);
+  background: -webkit-linear-gradient(45deg, #ffb032 0%,#f7931e 79%);
   background-image: -ms-linear-gradient(to right, #fbb03b 80%, #f7931e 90%);
   background-image: -o-linear-gradient(to right, #fbb03b 80%, #f7931e 90%);
   -webkit-border-radius: 20px;
@@ -278,16 +277,14 @@ html {
 .ball-icon {
   border-radius: 50%;
   background-image: -moz-linear-gradient(to top right, #ffb744 20%, #f7931e 90%);
-  background-image: -webkit-linear-gradient(to top right, #ffb744 20%, #f7931e 90%);
-  background-image: -ms-linear-gradient(to top right, #ffb744 20%, #f7931e 90%);
+  background: -webkit-linear-gradient(left, #ffb744 0%,#f7931e 79%);  background-image: -ms-linear-gradient(to top right, #ffb744 20%, #f7931e 90%);
   background-image: -o-linear-gradient(to top right, #ffb744 20%, #f7931e 90%);
 }
 
 .ball-blur-icon {
   border-radius: 50%;
   background-image: -moz-linear-gradient(to top right, #ffb744 20%, #f7931e 90%);
-  background-image: -webkit-linear-gradient(to top right, #ffb744 20%, #f7931e 90%);
-  background-image: -ms-linear-gradient(to top right, #ffb744 20%, #f7931e 90%);
+  background: -webkit-linear-gradient(left, #ffb744 0%,#f7931e 79%);  background-image: -ms-linear-gradient(to top right, #ffb744 20%, #f7931e 90%);
   background-image: -o-linear-gradient(to top right, #ffb744 20%, #f7931e 90%);
 }
 
@@ -395,8 +392,7 @@ html {
   top: -4%;
   right: 18%;
   background-image: -moz-linear-gradient(to top right, #ffb032 40%, #f7a01e 75%);
-  background-image: -webkit-linear-gradient(to top right, #ffb032 40%, #f7a01e 75%);
-  background-image: -ms-linear-gradient(to top right, #ffb032 40%, #f7a01e 75%);
+  background: -webkit-linear-gradient(left, #ffb744 0%,#f7931e 79%);  background-image: -ms-linear-gradient(to top right, #ffb032 40%, #f7a01e 75%);
   background-image: -o-linear-gradient(to top right, #ffb032 40%, #f7a01e 75%);
   z-index: 4;
   filter: blur(3px);
@@ -408,8 +404,7 @@ html {
   top: 5%;
   right: 2%;
   background-image: -moz-linear-gradient(to top right, #ffb032 40%, #f7a01e 75%);
-  background-image: -webkit-linear-gradient(to top right, #ffb032 40%, #f7a01e 75%);
-  background-image: -ms-linear-gradient(to top right, #ffb032 40%, #f7a01e 75%);
+  background: -webkit-linear-gradient(left, #ffb744 0%,#f7931e 79%);  background-image: -ms-linear-gradient(to top right, #ffb032 40%, #f7a01e 75%);
   background-image: -o-linear-gradient(to top right, #ffb032 40%, #f7a01e 75%);
   z-index: 1;
   filter: blur(3px);
@@ -421,8 +416,7 @@ html {
   bottom: 40%;
   right: 2%;
   background-image: -moz-linear-gradient(to top right, #ffb032 40%, #f7a01e 80%);
-  background-image: -webkit-linear-gradient(to top right, #ffb032 40%, #f7a01e 80%);
-  background-image: -ms-linear-gradient(to top right, #ffb032 40%, #f7a01e 80%);
+  background: -webkit-linear-gradient(left, #ffb744 0%,#f7931e 79%);  background-image: -ms-linear-gradient(to top right, #ffb032 40%, #f7a01e 80%);
   background-image: -o-linear-gradient(to top right, #ffb032 40%, #f7a01e 80%);
   z-index: 4;
   filter: blur(3px);
@@ -434,8 +428,7 @@ html {
   bottom: 4%;
   left: -15%;
   background-image: -moz-linear-gradient(to top right, #ffb032 40%, #f7a01e 80%);
-  background-image: -webkit-linear-gradient(to top right, #ffb032 40%, #f7a01e 80%);
-  background-image: -ms-linear-gradient(to top right, #ffb032 40%, #f7a01e 80%);
+  background: -webkit-linear-gradient(left, #ffb744 0%,#f7931e 79%);  background-image: -ms-linear-gradient(to top right, #ffb032 40%, #f7a01e 80%);
   background-image: -o-linear-gradient(to top right, #ffb032 40%, #f7a01e 80%);
   z-index: 4;
   filter: blur(3px);
