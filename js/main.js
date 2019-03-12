@@ -35,7 +35,7 @@ function parallax() {
 }
 
 function whatsappButton() {
-  let linkHref =
+  let linkHref = "https://wa.me/5585989020173?text=Fa%C3%A7a%20seu%20plano%20hapvida";
     "https://api.whatsapp.com/send?phone=5585989020173&text=Fa%C3%A7a%20seu%20plano%20hapvida";
   let linkImg = "./img/whatsapp-icon.svg";
   let altText = "whatsapp link";

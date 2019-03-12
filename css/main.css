@@ -7,6 +7,10 @@ html {
   overflow-x: hidden;
 }
 
+header {
+  width: 100%;
+}
+
 .blue-bg {
   background-image: -moz-linear-gradient(to top right, #89ccdc, #167e94);
   background: -webkit-linear-gradient(45deg, #89ccdc 0%,#167e94 79%);
@@ -535,7 +539,7 @@ hr.style-hr {
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 577px) and (max-width: 900px) {
   .title-secondary {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   #navbar {
@@ -575,7 +579,7 @@ hr.style-hr {
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (max-width: 576px) {
   .title-secondary {
-    font-size: 0.8rem;
+    font-size: 1.1rem;
     margin-bottom: 0 !important;
   }
 
