@@ -8,7 +8,12 @@ html {
 }
 
 header {
-  width: 100%;
+  width: 100% !important;
+}
+
+#woman-img {
+  width: 100% !important;
+  position: relative;
 }
 
 .blue-bg {
@@ -265,7 +270,7 @@ header {
 
 .pregnant-woman-img {
   left: 12%;
-  bottom: 0;
+  top: 0;
   height: 100%;
   z-index: 2;
 }
@@ -534,7 +539,8 @@ hr.style-hr {
 @media screen and (max-width: 1200px) {}
 
 /* Large devices (desktops, 992px and up) */
-@media screen and (max-width: 992px) {}
+@media screen and (max-width: 992px) {
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 577px) and (max-width: 900px) {
@@ -578,6 +584,10 @@ hr.style-hr {
 
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (max-width: 576px) {
+  #sectionOneTitle {
+    width: 100% !important;
+  }
+
   .title-secondary {
     font-size: 1.1rem;
     margin-bottom: 0 !important;
@@ -670,6 +680,11 @@ hr.style-hr {
     -moz-border-radius: 20px;
     border-radius: 20px;
   }
+
+  .footer-logo, .header-logo{
+    width: 50% !important;
+  }
+
 
   #buttonRedirect h1 {
     font-size: 1.2rem;

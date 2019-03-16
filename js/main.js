@@ -1,10 +1,7 @@
 $(document).ready(function() {
   if (window.innerWidth <= 576) {
     $("#logos-div").css({ padding: 0 });
-  } else {
-    $("#logos-div .img-fluid").css({ maxWidth: "45%"});
-
-  }
+  } 
 
   console.log(window.innerWidth);
 
@@ -39,7 +36,7 @@ function whatsappButton() {
     "https://api.whatsapp.com/send?phone=5585989020173&text=Fa%C3%A7a%20seu%20plano%20hapvida";
   let linkImg = "./img/whatsapp-icon.svg";
   let altText = "whatsapp link";
-  let classes = "social-icons img-fluid ";
+  let classes = "social-icons img-fluid "; 
 
   if (window.innerWidth < 1000) {
     $("#whatsapp-link").html(
