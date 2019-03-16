@@ -600,6 +600,9 @@ hr.style-hr {
   .text-5-halfrem {
     font-size: 4rem;
   }
+  .pregnant-woman-img {
+    top: 10% !important;
+  }
 
   .text-4rem {
     font-size: 3.5rem;
