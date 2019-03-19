@@ -13,7 +13,11 @@ $(document).ready(function() {
       alert("Este link só é funcional em aparelhos celulares");
     }
   });
-  
+ 
+});
+
+
+const submit = () => {
   $( "#inf_form_21585772141bf2c9f89458b1f426c05c" ).submit(function( event ) {
     event.preventDefault();
 
@@ -34,9 +38,7 @@ $(document).ready(function() {
     }
 
   });
-
- 
-});
+}
 
 const isNullOrEmpty = (value) => {
   return !(typeof value === String && value.length > 0);
