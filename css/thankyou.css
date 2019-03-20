@@ -1,9 +1,14 @@
 @media screen and (max-width: 600px) {
-    #container {
-        height: 100vh !important;
-    }
-
     #sectionOneTitle:parent {
         padding: 0 !important;
     }
 }
+
+html, body {
+    height: 100%;
+}
+
+#container {
+    height: 85%;
+}
+

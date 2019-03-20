@@ -16,6 +16,7 @@ $(document).ready(function() {
  
 });
 
+let userName = '';
 
 const submit = () => {
   $( "#inf_form_21585772141bf2c9f89458b1f426c05c" ).submit(function( event ) {
@@ -32,6 +33,7 @@ const submit = () => {
         !city.isNullOrEmpty){
 
         alert ("Cadastro concluído");
+        userName = name;
     } else {
         console.log(`${name} ${email} ${phone} ${city}`);
         alert ("Ocorreu um erro no cadastro");
