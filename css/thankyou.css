@@ -4,11 +4,19 @@
     }
 }
 
+
+
 html, body {
     height: 100%;
 }
 
 #container {
-    height: 85%;
+    height: 100%;
 }
 
+#sectionOneTitle {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: calc(100% - 50vh);
+}
