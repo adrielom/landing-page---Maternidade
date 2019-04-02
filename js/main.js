@@ -13,6 +13,20 @@ $(document).ready(function() {
       alert("Este link só é funcional em aparelhos celulares");
     }
   });
+
+  $("#inf_field_Phone1").on("change keyup paste", () => {
+    console.log('in here');
+    if($("#inf_field_Phone1").val().length == 3 
+       && ($("#inf_field_Phone1").val().indexOf('(') == -1
+       || $("#inf_field_Phone1").val().indexOf(')') == -1)
+       && $("#inf_field_Phone1").val() != ""){
+      console.log('bla')
+      let val = $('#inf_field_Phone1').val();
+      let rest = "(" + val.substring(0,2) + ") " + val.substring(2, val.length);
+
+      $('#inf_field_Phone1').val(rest);
+    } 
+  });
  
 });
 

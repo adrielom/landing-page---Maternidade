@@ -16,6 +16,7 @@ header {
   position: relative;
 }
 
+
 .blue-bg {
   background-image: -moz-linear-gradient(to top right, #89ccdc, #167e94);
   background: -webkit-linear-gradient(45deg, #89ccdc 0%,#167e94 79%);
