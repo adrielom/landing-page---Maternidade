@@ -27,37 +27,38 @@ $(document).ready(function() {
       $('#inf_field_Phone1').val(rest);
     } 
   });
+
+  $( "#submitButton" ).click((e) => {
+    let name = $("#inf_field_FirstName").val();
+    let email = $("#inf_field_Email").val();
+    let phone = $("#inf_field_Phone1").val();
+    let city = $("#inf_field_City3").val();
+    e.preventDefault();
+    if ((name != "" && name != null)
+    && (email != "" && email != null)
+    && (phone != "" && phone != null)
+    && (city != "" && city != null)){
+         
+      alert ("Cadastro concluído");
+      userName = name;
+      
+      $("form").submit();
+ 
+    } else {
+
+      console.log(name.isNullOrEmpty)
+      alert ("Ocorreu um erro no cadastro");
+      return false;
+    }
+  });
  
 });
 
 let userName = '';
 
-const submit = () => {
-  $( "#inf_form_21585772141bf2c9f89458b1f426c05c" ).submit(function( event ) {
-    event.preventDefault();
-
-    let name = $("#inf_field_FirstName").val();
-    let email = $("#inf_field_Email").val();
-    let phone = $("#inf_field_Phone1").val();
-    let city = $("#inf_field_City3").val();
-
-    if (!name.isNullOrEmpty && 
-        !email.isNullOrEmpty && 
-        !phone.isNullOrEmpty && 
-        !city.isNullOrEmpty){
-
-        alert ("Cadastro concluído");
-        userName = name;
-    } else {
-        console.log(`${name} ${email} ${phone} ${city}`);
-        alert ("Ocorreu um erro no cadastro");
-    }
-
-  });
-}
-
 const isNullOrEmpty = (value) => {
-  return !(typeof value === String && value.length > 0);
+  console.log(value)
+  return !(typeof value === String && value.length > 0 && value == undefined);
 }
 
 function parallax() {
